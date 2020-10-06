@@ -1,0 +1,10 @@
+.java-version
+.gradle
+gradlew.bat
+gradlew
+gradle/**
+.classpath
+.project
+build/
+bin/
+.settings/
