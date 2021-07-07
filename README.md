@@ -2,32 +2,56 @@
 
 # New Relic Java Instrumentation for Aerospike
 
->[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
-
 ## Installation
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+> Clone this repository to your local disk or follow instructions for installing the latest release.
 
 ## Getting Started
->[Simple steps to start working with the software similar to a "Hello World"]
+
+Project can be imported into Eclipse or IntelliJ
+
+Eclipse:
+ All modules
+ ./gradlew eclipse
+
+Individual Module
+ ./gradlew moduleName:eclipse
+ e.g. ./gradlew AeroSpike_4.0:eclipse
+
+ IntelliJ
+ same command except use idea rather than eclipse
+
 
 ## Usage
->[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
+   
+The calls will show up under Databases as Aerospike
 
 
 ## Building
 
->[**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
+> Set the environment variable NEW_RELIC_EXTENSIONS_DIR to the directory where you would like to build the extension jar(s)
+>
+> To build all modules
+> ./gradlew clean install
+>
+> To build a modules
+> ./gradlew moduleName:clean moduleName:install
 
 ## Testing
 
->[**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
+> Run gradle moduleName:test
+
+## Verifying
+
+> To verify that the module will load into the Java Agent used the verifyInstrumentation option
+> see https://github.com/newrelic/newrelic-gradle-verify-instrumentation for more information.  
+> gradle moduleName:verifyInstrumentation
 
 ## Support
 
 New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub. You can find this project's topic/threads here:
 
->Add the url for the support thread here
+
 
 ## Contributing
 We encourage your contributions to improve [project name]! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
