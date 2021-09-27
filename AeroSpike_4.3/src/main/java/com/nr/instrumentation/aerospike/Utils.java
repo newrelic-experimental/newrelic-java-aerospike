@@ -1,6 +1,7 @@
 package com.nr.instrumentation.aerospike;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
@@ -108,5 +109,22 @@ public class Utils {
 		
 		return DatastoreParameters.product("AeroSpike").collection(tableName).operation(operation).noInstance().databaseName(statement.getNamespace()).build();
 	}
+	
+	
+	public static void reportStatement(HashMap<String,Object> attributes, Statement statement) {
+		reportValue(attributes,"FunctionName",statement.getFunctionName());
+		reportValue(attributes,"IndexName",statement.getIndexName());
+		reportValue(attributes,"Namespace",statement.getNamespace());
+		reportValue(attributes,"PackageName",statement.getPackageName());
+		reportValue(attributes,"Resourcepath",statement.getResourcePath());
+		reportValue(attributes,"SetName",statement.getSetName());
+	}
+	
+	public static void reportValue(HashMap<String,Object> attributes, String key, Object value) {
+		if(key != null && !key.isEmpty() && value != null) {
+			attributes.put(key, value);
+		}
+	}
+
 
 }
