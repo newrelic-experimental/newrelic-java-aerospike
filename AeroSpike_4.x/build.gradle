@@ -14,7 +14,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.AeroSpike_4.3'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.AeroSpike_4.x'
     attributes 'Implementation-Vendor': 'New Relic'
     attributes 'Implementation-Vendor-Id': 'com.newrelic'
     attributes 'Implementation-Version': 1.0
