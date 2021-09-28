@@ -1,5 +1,20 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
+![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-java-aerospike?style=social)
+![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-java-aerospike?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-java-aerospike?style=social)
+
+![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-java-aerospike/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-java-aerospike)
+![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-java-aerospike)
+![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-java-aerospike)
+
+
+![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-java-aerospike)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-java-aerospike)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-java-aerospike)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-java-aerospike)
+
 # New Relic Java Instrumentation for Aerospike
 
 ## Installation
@@ -23,7 +38,7 @@ Individual Module
 
 
 ## Usage
-   
+
 The calls will show up under Databases as Aerospike
 
 
@@ -56,7 +71,7 @@ New Relic hosts and moderates an online forum where customers can interact with 
 ## Contributing
 We encourage your contributions to improve [project name]! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@newrelic.com.
-   
+
 **A note about vulnerabilities**
 
 As noted in our [security policy](../../security/policy), New Relic is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
