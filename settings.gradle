@@ -1,2 +1,4 @@
 rootProject.name = 'java-instrumentation-template'
 include 'AeroSpike_4.x'
+include 'AeroSpike_6.0'
+include 'AeroSpike_6.1'
