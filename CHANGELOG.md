@@ -1,3 +1,8 @@
+## Version: [v3.0.1](https://github.com/newrelic-experimental/newrelic-java-aerospike/releases/tag/v3.0.1) | Created: 2023-09-21
+### Build Upgrades
+- Added release workflow
+
+
 ## Installation
 
 To install:
